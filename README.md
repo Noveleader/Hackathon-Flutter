@@ -18,3 +18,22 @@ The function is used to revoke access to the patient's records from a healthcare
 ```hasAccess```
 The function is used to check whether a healthcare provider has access to a patient's records. It takes the Ethereum addresses of the patient and the healthcare provider as parameters and returns a boolean value that indicates whether the healthcare provider has access to the patient's records.
 </p>
+
+<hr>
+<h1>Flutter Frontend</h1>
+<hr>
+<p>Flutter Frontend is kept simple and the UI have minimum number of elements.
+
+```main.dart```
+This is the main code of the application which implements the login page of the app using a stateless widget.
+
+```insideapp.dart```
+This page takes the input for the private key from the user and import the wallet, also checks if the private key is of correct bytes or not. 
+
+```import.dart```
+This page integrates the frontend and backend of the whole app using infura api keys.
+
+```health.dart```
+It have the definition of the variables of the struct created in the solidity backend. 
+
+</p>
