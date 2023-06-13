@@ -36,7 +36,5 @@ This page integrates the frontend and backend of the whole app using infura api 
 ```health.dart```
 It have the definition of the variables of the struct created in the solidity backend. 
 
-![Untitled design (24)](https://github.com/Noveleader/Hackathon-Flutter/assets/91677627/e90e1fd6-b646-45cb-b8d0-c0b95df32978)
-
 <img src="app.png" alt="HealthCare SSI">
 </p>
