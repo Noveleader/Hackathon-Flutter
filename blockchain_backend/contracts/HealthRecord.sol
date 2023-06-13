@@ -21,6 +21,7 @@ contract HealthRecord {
 
     function addRecord(string memory _name, uint256 _age, uint256 _height, uint256 _weight, string[] memory _allergies, string[] memory _vaccinationsTaken) public {
         Record memory newRecord = Record(block.timestamp, _name, _age, _height, _weight, _allergies, _vaccinationsTaken);
+        sharedAccess[msg.sender][msg.sender] = true;
         patientRecords[msg.sender]
         .push(newRecord);
         emit RecordAdded(msg.sender,  _name, _age, _height, _weight, _allergies, _vaccinationsTaken);
