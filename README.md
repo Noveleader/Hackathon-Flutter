@@ -36,4 +36,7 @@ This page integrates the frontend and backend of the whole app using infura api 
 ```health.dart```
 It have the definition of the variables of the struct created in the solidity backend. 
 
+![image](https://github.com/Noveleader/Hackathon-Flutter/assets/91677627/f6553b95-e8ec-4ec5-85c2-0ae4ed233562)
+![image](https://github.com/Noveleader/Hackathon-Flutter/assets/91677627/134e0671-6c2b-4d97-bfa7-b52c6608070e)
+
 </p>
